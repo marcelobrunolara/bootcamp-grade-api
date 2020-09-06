@@ -10,7 +10,9 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log('Conectado com o mongodb com sucesso');
   } catch (error) {
+    console.log('Erro ao conectar no mongodb ' + error);
     process.exit();
   }
 })();
