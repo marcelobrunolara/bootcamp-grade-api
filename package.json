@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "yarn -r dotenv/config --experimental-modules app.js",
+    "this": "-r dotenv/config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
